@@ -1,0 +1,69 @@
+body{
+   margin:30px; 
+}
+
+/* banner style */
+.banner{
+ background-image: url("image/Banner\ Image.png");
+ background-repeat: no-repeat;
+background-size: contain;
+height: 90vh;
+background-color: rgb(87, 85, 104);
+background-blend-mode: multiply;;
+ background-position: center ;
+ margin: 20px;
+ border-radius: 15px;
+
+
+}
+
+.banner-content{
+
+    color:white;
+    text-align:center;
+    background-position: center;
+    padding-top: 12%;
+    
+}
+.banner-title1{
+    
+    font-size: 20px;
+}
+.banner-title2{
+    font-size: 55px;
+}
+
+/* ALL CATEGORIES */
+.party{
+    color: white;
+    background-image: url("image/Vectorrr.png");
+    background-repeat: no-repeat;
+   background-size: contain;
+   height: 90vh;
+   background-color: rgb(87, 85, 104);
+   background-blend-mode: multiply;;
+    background-position: center ;
+    margin: 20px;
+    border-radius: 15px;
+   
+   
+   }
+
+.categories-content{
+    margin-top: 70px;
+   text-align: center;
+
+}
+.categories-content img{
+    width: 50%;
+}
+.categories-content h1 {
+    font-size: 60px;
+    color: crimson;
+}
+.categories-content p{
+    color: crimson;
+}
+.categories-content h3{
+    font-size: 28px;
+}
