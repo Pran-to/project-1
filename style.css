@@ -72,6 +72,7 @@ background-blend-mode: multiply;;
     gap: 50px;
     align-items: center;
     margin-top: 100px;
+    margin-bottom: 70px;
     
    
    
@@ -92,3 +93,20 @@ background-blend-mode: multiply;;
    width: 25%;
    }
   
+   /* Place date and time section */
+   .place{
+    background-image: linear-gradient(rgb(247, 195, 195), rgb(232, 227, 228));
+    border-radius: 10px;
+    text-align: center;
+    height: 50vh;
+    padding-top: 60px;
+    margin: 25px;
+   }
+   .place button {
+    margin-top: 20px;
+    color: white;
+    background-color: crimson;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+   }
