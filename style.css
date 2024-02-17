@@ -110,3 +110,22 @@ background-blend-mode: multiply;;
     padding: 10px;
     border-radius: 5px;
    }
+   /* best offer & Coming Soon section */
+   .offer{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    gap: 15px;
+    margin: 100px 25px;
+    
+   }
+   .offer > img {
+    border: 10px solid red;
+    border-radius:50%;
+    width: 25%;
+    padding: 10px;
+   }
+   .offer-content1,.offer-content2{
+    width: 25%;
+   }
+  
