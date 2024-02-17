@@ -1,71 +1,78 @@
-body{
-   margin:30px; 
+body {
+    margin: 30px;
 }
 
 /* banner style */
-.banner{
- background-image: url("image/Banner\ Image.png");
- background-repeat: no-repeat;
-background-size: contain;
-height: 90vh;
-background-color: rgb(87, 85, 104);
-background-blend-mode: multiply;;
- background-position: center ;
- margin: 20px;
- border-radius: 15px;
+.banner {
+    background-image: url("image/Banner\ Image.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 90vh;
+    background-color: rgb(87, 85, 104);
+    background-blend-mode: multiply;
+    ;
+    background-position: center;
+    margin: 20px;
+    border-radius: 15px;
 
 
 }
 
-.banner-content{
+.banner-content {
 
-    color:white;
-    text-align:center;
+    color: white;
+    text-align: center;
     background-position: center;
     padding-top: 12%;
-    
+
 }
-.banner-title1{
-    
+
+.banner-title1 {
+
     font-size: 20px;
 }
-.banner-title2{
+
+.banner-title2 {
     font-size: 55px;
 }
 
 /* ALL CATEGORIES */
 
 
-.categories-content{
-    
+.categories-content {
+
     margin-top: 70px;
-   text-align: center;
+    text-align: center;
 
 }
-.categories-content img{
+
+.categories-content img {
     width: 50%;
 }
+
 .categories-content h1 {
     font-size: 60px;
     color: crimson;
 }
-.categories-content p{
+
+.categories-content p {
     color: crimson;
 }
-.categories-content h3{
+
+.categories-content h3 {
     font-size: 28px;
 }
 
 /* midnight party  */
-.party{
- 
+.party {
+
     background-image: url("image/Vectorrr.png");
     background-repeat: no-repeat;
-   background-size: contain;
-   height: 90vh;
-   background-color: rgb(87, 85, 104);
-   background-blend-mode: multiply;
-    background-position: center ;
+    background-size: contain;
+    height: 90vh;
+    background-color: rgb(87, 85, 104);
+    background-blend-mode: multiply;
+    background-position: center;
     margin: 20px;
     border-radius: 15px;
     display: flex;
@@ -73,93 +80,136 @@ background-blend-mode: multiply;;
     align-items: center;
     margin-top: 100px;
     margin-bottom: 70px;
-    
-   
-   
-   }
-   .party-content{
 
-        color: white;
-        width: 50%;
-        margin-left: 50px;
-   }
-   .party-content h1 {
+
+
+}
+
+.party-content {
+
+    color: white;
+    width: 50%;
+    margin-left: 50px;
+}
+
+.party-content h1 {
     font-size: 55px;
-   }
-   .party-content h4{
+}
+
+.party-content h4 {
     margin-left: 30px;
-   }
-   .party-img{
-   width: 25%;
-   }
-  
-   /* Place date and time section */
-   .place{
+}
+
+.party-img {
+    width: 25%;
+}
+
+/* Place date and time section */
+.place {
     background-image: linear-gradient(rgb(247, 195, 195), rgb(232, 227, 228));
     border-radius: 10px;
     text-align: center;
     height: 50vh;
     padding-top: 60px;
     margin: 25px;
-   }
-   .place button {
+}
+
+.place button {
     margin-top: 20px;
     color: white;
     background-color: crimson;
     border: none;
     padding: 10px;
     border-radius: 5px;
-   }
-   /* best offer & Coming Soon section */
-   .offer{
+}
+
+/* best offer & Coming Soon section */
+.offer {
     display: flex;
     align-items: center;
-    justify-content:space-between ;
+    justify-content: space-between;
     gap: 15px;
     margin: 100px 25px;
-    
-   }
-   .offer > img {
+
+}
+
+.offer>img {
     border: 10px solid red;
-    border-radius:50%;
+    border-radius: 50%;
     width: 25%;
     padding: 10px;
-   }
-   .offer-content1,.offer-content2{
+}
+
+.offer-content1,
+.offer-content2 {
     width: 25%;
-   }
-   /* Holidays Sale section  */
-  
-   .holiday-content{
-    
+}
+
+/* Holidays Sale section  */
+
+.holiday-content {
+
     text-align: center;
-   }
-   .holiday-content h1{
+}
+
+.holiday-content h1 {
     font-size: 40px;
-   }
-   .holiday-images{
+}
+
+.holiday-images {
     margin-top: 30px;
     margin-right: 35px;
     text-align: right;
-   }
-   .holiday-image1{
+}
+
+.holiday-image1 {
     position: relative;
-    
-    
-    
-   }
-   .holiday-image2{
+
+
+
+}
+
+.holiday-image2 {
     margin-left: -98px;
-   }
-   .holiday-image3{
+}
+
+.holiday-image3 {
     position: absolute;
     margin-left: 30px;
     width: 90%;
-   }
-   .holiday-image4{
+}
 
-  width: 55%;
-    position:relative;
+.holiday-image4 {
+
+    width: 55%;
+    position: relative;
     margin-top: -350px;
-   
-   }
+
+}
+
+/* THE BEST GIFTS style */
+
+.gift {
+    margin-top: 70px;
+    margin-left: 25px;
+}
+
+.gift-images {
+    display: flex;
+    justify-content: space-evenly;
+
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.gift-images img {
+
+    width: 30%;
+}
+
+.gift-images img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+}
