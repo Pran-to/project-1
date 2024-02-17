@@ -239,3 +239,29 @@ body {
     border-radius:0 50px  50px  0 ;
    cursor: pointer;
 }
+
+/* Footer section */
+footer{
+    color: white;
+    background-color: black;
+    padding: 5%;
+}
+.footer1,.footer2{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.con{
+    gap: 20px;
+    display: flex;
+}
+
+.footer-social{
+
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+    
+}
